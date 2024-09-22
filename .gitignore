@@ -1,0 +1,14 @@
+# Resources
+Helper Resources/
+Learning Resources/
+
+# Ignore venv folders globally
+venv/
+
+# Ignore IDE files
+# JetBrains IDE - IntelliJ IDEA and PyCharm
+.idea/
+
+# Ignore system files
+.DS_Store
+
