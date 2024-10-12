@@ -2,9 +2,16 @@
 Helper Resources/
 Learning Resources/
 Resources/
+References/
+
+# Submission Files
+Submission/
 
 # Ignore venv folders globally
 venv/
+
+# Ignore environment files
+.env
 
 # Ignore IDE files
 # JetBrains IDE - IntelliJ IDEA and PyCharm
