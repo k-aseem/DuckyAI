@@ -42,6 +42,22 @@ This project is a collection of various modules and resources designed to explor
 - **Documentation Assistance**: Helps in writing and maintaining documentation.
 - **Refactoring Suggestions**: Provides suggestions for code refactoring.
 
+## Snapshots
+
+### Quick Chat
+
+![Quick Chat](Module10_snapshots/quick_chat.png)
+
+### Learning Topics
+
+![Learning Topics](Module10_snapshots/learning_topics.png)
+
+### Image Generation
+
+![Image Generation](Module10_snapshots/image_generation.png)
+
+### Documentation Assistance
+
 ## Setup
 
 1. **Clone the repository**:

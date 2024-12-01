@@ -20,3 +20,5 @@ venv/
 # Ignore system files
 .DS_Store
 
+# Ignore data files
+data/
