@@ -1,46 +1,31 @@
-# CS5914-AI-Tools
-
-CS 5914 - AI Tools for Software Engineering
+# DuckyAI: Code Assistant
 
 ## Project Overview
 
-This project is a collection of various modules and resources designed to explore and utilize AI tools for software engineering. The project includes multiple modules, each focusing on different aspects of AI and software development.
+**DuckyAI** is a generative AI-powered code assistant designed to streamline
+software development tasks, from code generation to debugging.
+It started as a series of incremental development modules (Modules 1 to 9),
+each exploring different aspects of AI and software engineering, culminating
+in **Module 10**, which represents the final, fully-integrated product.
 
-## Features
+## Incremental Development Modules
 
-- **Module 1: Learning Python**
+- **Modules 1 to 9**: Iterative exploration of Python programming, AI tools, and software engineering practices. These modules served as the building blocks, incrementally developing and testing functionalities that would be integrated into the final product.
 
-  - Introduction to Python programming.
-  - Interactive notebooks to practice Python skills.
-  - Integration with OpenAI for code generation and refinement.
+## Final Module - Module 10
 
-- **Module 2: Project 2**
-
-  - Unsupervised and supervised learning exercises.
-  - Use of TF-IDF vectorizer for text feature extraction.
-  - Precision metric handling with scikit-learn.
-  - Detailed instructions for creating and submitting project ZIP files.
-
-- **Module 3: Mastermind Game**
-
-  - Implementation of the Mastermind game.
-  - Practice with Python programming and game logic.
-
-- **Module 4: Project 4**
-
-  - Business need and opportunity analysis.
-  - Stakeholder identification and project planning.
-
-- **Module 5 to Module 10**
-  - Various exercises and projects to deepen understanding of AI tools and software engineering practices.
-
-## Final Product - Module 10 Features
+**Module 10** represents the culmination of all previous work.
+It delivers a fully integrated, production-ready code assistant with the
+following features:
 
 - **Automated Code Review**: Uses AI to review code and suggest improvements.
 - **Code Generation**: Generates code snippets based on user input.
 - **Bug Detection**: Identifies potential bugs in the code.
 - **Documentation Assistance**: Helps in writing and maintaining documentation.
-- **Refactoring Suggestions**: Provides suggestions for code refactoring.
+- **Refactoring Suggestions**: Provides suggestions for improving code structure and readability.
+- **Task Automation**: Coordinates multiple agents to handle complex tasks.
+- **Image Generation & Voice Chat**: Supports image creation features and voice-based interaction.
+- **Context Retrieval (e.g., PDF-based)**: Leverages semantic search and external documents to provide context-aware suggestions.
 
 ## Snapshots
 
@@ -63,15 +48,16 @@ This project is a collection of various modules and resources designed to explor
 1. **Clone the repository**:
 
    ```sh
-   git clone https://github.com/yourusername/CS5914-AI-Tools.git
-   cd CS5914-AI-Tools
+   git clone https://github.com/k-aseem/DuckyAI.git
+   cd DuckyAI
    ```
 
 2. **Set up a virtual environment**:
 
    ```sh
    python3 -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   source venv/bin/activate
+   # On Windows use `venv\Scripts\activate`
    ```
 
 3. **Install the dependencies**:
@@ -90,12 +76,13 @@ This project is a collection of various modules and resources designed to explor
 1. **Activate the virtual environment**:
 
    ```sh
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   source venv/bin/activate
+   # On Windows use `venv\Scripts\activate`
    ```
 
 2. **Start the project**:
    ```sh
-   python main.py
+   streamlit run 🏠_Ducky.py
    ```
 
 ## Contributing
