@@ -67,8 +67,20 @@ following features:
    ```
 
 4. **Install the agent requirements**:
+
    ```sh
    pip install -r requirements_agents.txt
+   ```
+
+5. **Set up OpenAI API Base URL, Key and Model**:
+
+   - Create a .env file in the root directory of the project.
+   - Add the following lines to the .env file:
+
+   ```sh
+   OPENAI_API_KEY=your_openai_api_key
+   OPENAI_BASE_URL=https://api.openai.com/v1
+   OPENAI_MODEL=gpt-3.5-turbo
    ```
 
 ## Usage
