@@ -2,10 +2,6 @@
 Helper Resources/
 Learning Resources/
 Resources/
-References/
-
-# Submission Files
-Submission/
 
 # Ignore venv folders globally
 venv/
@@ -20,5 +16,4 @@ venv/
 # Ignore system files
 .DS_Store
 
-# Ignore data files
-data/
+create_venv_steps.rtf
